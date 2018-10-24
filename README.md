@@ -28,4 +28,4 @@
 
 - On fait les lien entre les models
 
-- Et on a généré des éléments pour chaque class pour remplir notre base de donnée en utilisant la gem faker et pour trouver des noms, titres(ect...).
+- Et on a généré des éléments pour chaque class pour remplir notre base de donnée en utilisant la gem faker pour trouver des noms, titres(ect...).
