@@ -10,10 +10,10 @@
 
 # TEAM
 
-| Nom    |Prenom  |
-| ------ |:------:|
-| REAU   | Alexis |
-| PINTO  | Florian|
+| Nom    |Prenom    |
+| ------ |:--------:|
+| REAU   | Alexis   |
+| PINTO  | Florian  |
 
 # EXPLICATION
 
