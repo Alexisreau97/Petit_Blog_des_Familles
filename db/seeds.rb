@@ -8,10 +8,15 @@
 
 require 'faker'
 
-9.times do
-  user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, email: Faker::Internet.email)
+# 9.times do
+#   user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, email: Faker::Internet.email)
+# end
+
+4.times do
+	categorie = Categorie.create!(name: Faker::Book.genre)
 end
 
 9.times do
-  user = Article.create!(title: Faker::Book.title, content: Faker::FamousLastWord.last_words)
+  article = Article.create!(title: Faker::Book.title, content: Faker::FamousLastWords.last_words, user_id: 4, categorie_id: 2)
 end
+
