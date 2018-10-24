@@ -8,6 +8,10 @@
 
 require 'faker'
 
-2.times do
-  user = User.create!(first_name: Faker::Company.name, last_name: Faker::Company.name, email: Faker::Internet.email)
+9.times do
+  user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, email: Faker::Internet.email)
+end
+
+9.times do
+  user = Article.create!(title: Faker::Book.title, content: Faker::FamousLastWord.last_words)
 end
